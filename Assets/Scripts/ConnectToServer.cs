@@ -1,9 +1,10 @@
 using Photon.Pun;
-using Photon.Realtime;
 using UnityEngine;
 
 public class ConnectToServer : MonoBehaviourPunCallbacks
 {
+    public int sceneToLoad;
+
     void Start()
     {
         ConnectToPhoton();
@@ -27,6 +28,6 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
     {
         int playerNumber = PhotonNetwork.PlayerList.Length;
         PhotonNetwork.NickName = "Player" + playerNumber;
-        PhotonNetwork.LoadLevel("ChatDeTexto");
+        PhotonNetwork.LoadLevel(sceneToLoad);
     }
 }
