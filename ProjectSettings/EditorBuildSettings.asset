@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/ChatDeTexto.unity
+    guid: 76b4465f1074fde46a630a1c12b9c1e6
+  - enabled: 1
     path: Assets/Scenes/ChatDeVoz.unity
     guid: c1f0a497fca947d4dacfd927b1dac78d
   - enabled: 1
-    path: Assets/Scenes/ChatDeTexto.unity
-    guid: 76b4465f1074fde46a630a1c12b9c1e6
+    path: Assets/Scenes/Comandos.unity
+    guid: 53c3402a48a33bf419533065d554c987
   m_configObjects: {}
