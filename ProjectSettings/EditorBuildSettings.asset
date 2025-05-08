@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Comandos.unity
     guid: 53c3402a48a33bf419533065d554c987
+  - enabled: 1
+    path: Assets/Scenes/Lag.unity
+    guid: 11c0f70a9fb3c06478f0e27b0a00b07a
   m_configObjects: {}
